@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/KilloToGram"
+        android:src="@drawable/killo_to_gram"
+        android:fitsSystemWindows="true"
+        android:background="@color/teal_200"
+
+        />
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/gramTokillo"
+        android:layout_below="@id/KilloToGram"
+        android:src="@drawable/gramtokillo"
+        android:background="@color/purple_200"
+        />
+
+
+</RelativeLayout>
